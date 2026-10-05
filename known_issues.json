@@ -1,0 +1,72 @@
+[
+  {
+    "id": "AUTH-01",
+    "category": "auth",
+    "title": "Session timed out",
+    "when": "The page says the session expired or shows error 401 and asks to log in again.",
+    "reply": "Your login session timed out. Log out, clear cookies for the portal (or use a private window), and sign in again. If it keeps happening within a few minutes, reply to this ticket."
+  },
+  {
+    "id": "AUTH-02",
+    "category": "auth",
+    "title": "Account locked after failed sign-ins",
+    "when": "The account is locked or disabled after too many failed sign-in attempts.",
+    "reply": "Your account was locked after several failed sign-in attempts. It unlocks automatically after 30 minutes. If you have forgotten your password, use 'Forgot password' on the sign-in page instead of trying again."
+  },
+  {
+    "id": "AUTH-03",
+    "category": "auth",
+    "title": "Forgotten or expired password",
+    "when": "The student forgot the password, or the password has expired and must be changed.",
+    "reply": "Use 'Forgot password' on the sign-in page to set a new password with your registered phone or recovery email. If you no longer have access to either, visit the IT Helpdesk with your student ID."
+  },
+  {
+    "id": "NET-01",
+    "category": "network",
+    "title": "Campus Wi-Fi authentication failed",
+    "when": "The device cannot join the campus Wi-Fi and reports an authentication or 802.1X failure.",
+    "reply": "Open your Wi-Fi settings, choose 'Forget this network' for the campus Wi-Fi, then reconnect and enter your full university username and current password. Check that your device date and time are set automatically."
+  },
+  {
+    "id": "NET-02",
+    "category": "network",
+    "title": "Connected to Wi-Fi but no internet",
+    "when": "The device is connected to Wi-Fi but websites do not load or it shows 'No internet'.",
+    "reply": "Open any website to trigger the campus sign-in page and log in. If nothing appears, turn Wi-Fi off and on, or forget and rejoin the network."
+  },
+  {
+    "id": "LMS-01",
+    "category": "lms",
+    "title": "Upload exceeds the file size limit",
+    "when": "An assignment upload fails because the file is larger than the maximum allowed size.",
+    "reply": "The file is larger than the upload limit. Compress it (remove videos or large images, or export a smaller PDF), or upload it to your university cloud drive and submit the share link. Ask your instructor if the limit must be raised."
+  },
+  {
+    "id": "LMS-02",
+    "category": "lms",
+    "title": "Submission closed after the deadline",
+    "when": "The assignment no longer accepts submissions because the due date has passed.",
+    "reply": "The submission window has closed. Only your instructor can reopen it or grant an extension, so please contact them directly with your file attached."
+  },
+  {
+    "id": "REG-01",
+    "category": "registration",
+    "title": "Section is full",
+    "when": "The student cannot add a course section because it is full or has reached capacity.",
+    "reply": "This section is full. Join the waitlist from the same page; seats are offered automatically in waitlist order. You can also check other sections of the same course."
+  },
+  {
+    "id": "REG-02",
+    "category": "registration",
+    "title": "Prerequisite or registration hold",
+    "when": "Registration is blocked by a missing prerequisite or a hold on the student's account.",
+    "reply": "Registration is blocked by a prerequisite or an account hold. Check 'Holds' in the portal to see who placed it, and contact that office or your academic advisor to clear it."
+  },
+  {
+    "id": "MAIL-01",
+    "category": "email",
+    "title": "Mailbox is full",
+    "when": "Email cannot be sent or received because the mailbox storage quota is full.",
+    "reply": "Your mailbox has reached its storage limit. Empty 'Deleted Items', delete large attachments, then wait a few minutes for the quota to refresh."
+  }
+]
