@@ -68,5 +68,13 @@
     "title": "Mailbox is full",
     "when": "Email cannot be sent or received because the mailbox storage quota is full.",
     "reply": "Your mailbox has reached its storage limit. Empty 'Deleted Items', delete large attachments, then wait a few minutes for the quota to refresh."
+  },
+  {
+    "id": "OTHER-01",
+    "category": "other",
+    "title": "Unreadable generic error page: basic browser checks and request details",
+    "when": "Use when a student reports a generic or minimalist error page but the screenshot or description lacks readable error text, codes, or the affected service.",
+    "reply": "Hi! Thanks for sending the screenshot. Unfortunately the error message itself didn't come through clearly, so here are some general steps to try:\n1. Reload the page, wait a minute, then try again.\n2. Open the same link in a private/incognito window or a different browser.\n3. Clear your browser cache and cookies, then sign in again.\n4. Try a different network, such as mobile data instead of Wi-Fi.\nIf the error still appears after these steps, please reply to this ticket with the exact error text or code, the page address, when it happened, and your device and browser. That will help us pinpoint the issue quickly.",
+    "approved_from_llm": true
   }
 ]
